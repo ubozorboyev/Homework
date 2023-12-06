@@ -7,8 +7,15 @@ class Cola(): Algo("Cola")
 class Pepsi():Algo("Pepsi")
 class Pila:Algo("Pila")
 
+const val SUBSYSTEM_DEPRECATED: String = "This subsystem is deprecated"
+
+@Deprecated(SUBSYSTEM_DEPRECATED)
+fun foo() {
+
+}
 
 abstract class Base{
+
     abstract val algo:Algo
 
     fun showMessage(){
@@ -26,6 +33,12 @@ class PepsiA():Base(){
         get() = Pepsi()
 }
 
+class Person{
+
+
+
+}
+
 fun main(){
 
     val cola = ColaA()
@@ -35,9 +48,6 @@ fun main(){
     val pepsi = PepsiA()
 
     pepsi.showMessage()
-
-
-
 
 
 }

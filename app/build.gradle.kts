@@ -67,4 +67,11 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    // Image loader api Glide
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
+
+    //implementation("io.coil-kt:coil:2.5.0")
+
+
 }
