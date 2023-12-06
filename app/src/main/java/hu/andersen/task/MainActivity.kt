@@ -33,7 +33,6 @@ class MainActivity : ComponentActivity() {
 
         binding.btnOrange.setOnClickListener {
             binding.orangeImage.load("file:///android_asset/orange/orange.jpg")
-
         }
 
         binding.btnBanana.setOnClickListener {
